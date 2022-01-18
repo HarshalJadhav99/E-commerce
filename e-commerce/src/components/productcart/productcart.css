@@ -1,0 +1,12 @@
+.pc_h3_style > h3 {
+  text-align: initial;
+}
+.pc_shopping_style {
+  text-align: initial;
+}
+.pc_img_style > img {
+  width: 150px;
+}
+.scrolls {
+  overflow-y: scroll;
+}

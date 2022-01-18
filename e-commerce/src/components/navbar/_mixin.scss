@@ -1,0 +1,26 @@
+// mixin
+@mixin nav_links {
+  margin-right: 20px;
+  color: $primary_color;
+}
+@mixin btn_add {
+  background: rgb(47, 41, 67);
+  color: $primary_color;
+  border: transparent;
+  border-radius: 0%;
+  padding-inline: 30px;
+  margin-right: -12px;
+}
+@mixin btn_add_hover {
+  background: rgb(85, 63, 156);
+  color: $primary_color;
+  border: transparent;
+  border-radius: 0%;
+  padding-inline: 30px;
+  margin-right: -12px;
+}
+@mixin input_style($width) {
+  width: $width;
+  border: transparent;
+  text-align: end;
+}

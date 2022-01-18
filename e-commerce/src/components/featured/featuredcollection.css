@@ -1,0 +1,64 @@
+.featured_style > h3 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: rgb(236, 114, 32);
+}
+.featured_style > p {
+  font-size: 12px;
+  color: rgb(236, 114, 32);
+}
+.fibox_color {
+  background-color: rgb(242, 242, 242);
+  padding: 20px;
+  margin-right: 10px;
+}
+.fiimg_style > img {
+  width: 190px;
+  height: 150px;
+}
+.fi1_style {
+  text-align: initial;
+}
+.slick-dots {
+  position: absolute;
+  bottom: -25px;
+  display: block;
+  width: 90%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.fc_bn_btn {
+  color: rgb(255, 166, 0);
+  margin-left: -12px;
+  margin-top: -20px;
+}
+.fc_bn_btn:hover {
+  color: rgb(255, 136, 0);
+  margin-left: -12px;
+  margin-top: -20px;
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+}
+
+@media (max-width: 767px) {
+  .fiimg_style > img {
+    width: 290px;
+    height: 190px;
+  }
+  .slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 90% !important;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .slick-next {
+    right: 0px !important;
+  }
+}

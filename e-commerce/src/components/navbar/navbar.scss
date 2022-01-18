@@ -1,0 +1,94 @@
+@import "var";
+@import "mixin";
+.input_style {
+  @include input_style(857px);
+}
+.navbar-light .navbar-toggler {
+  color: rgba(0, 0, 0, 0.55);
+  border-color: transparent;
+}
+button:focus:not(:focus-visible) {
+  outline: none;
+}
+.navbar-light .navbar-toggler {
+  color: $primary_color;
+
+  border-color: none;
+}
+.btn_add_style {
+  @include btn_add;
+  &:hover {
+    @include btn_add_hover;
+  }
+}
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.nav_search {
+  margin-top: 12px;
+  margin-right: 15px;
+  position: relative;
+  right: 30px;
+}
+.nav2_mistyle {
+  color: $primary_color;
+  margin-right: 470px;
+}
+.nav2_psize {
+  font-size: 10px;
+}
+.nav2_color {
+  background-color: rgb(47, 41, 67);
+  color: black;
+}
+.nav2_brandspace {
+  & a {
+    @include nav_links;
+  }
+}
+.nav2_personalspace {
+  & a {
+    @include nav_links;
+  }
+}
+.nav2_babyspace {
+  & a {
+    @include nav_links;
+  }
+}
+.nav2_womanspace {
+  & a {
+    @include nav_links;
+  }
+}
+.nav2_fcarespace {
+  & a {
+    @include nav_links;
+  }
+}
+.nav2_manspace {
+  & a {
+    @include nav_links;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .input_style {
+    @include input_style(100%);
+  }
+}
+
+@media (max-width: 767px) {
+  .input_style {
+    @include input_style(100%);
+  }
+  .nav2_mistyle {
+    margin-inline: 130px;
+  }
+}

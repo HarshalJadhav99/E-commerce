@@ -1,0 +1,59 @@
+.nc_color {
+  background-color: rgb(242, 242, 242);
+  padding: 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+.nc_style > h3 {
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  color: rgb(236, 114, 32);
+}
+.nc_style > p {
+  font-size: 12px;
+  color: rgb(236, 114, 32);
+}
+.ncimg_style > img {
+  width: 190px;
+  height: 200px;
+}
+.nc_tstyle {
+  text-align: initial;
+}
+.nc_bn_btn {
+  color: rgb(255, 166, 0);
+  margin-left: -12px;
+  margin-top: -20px;
+}
+.nc_bn_btn:hover {
+  color: rgb(255, 136, 0);
+  margin-left: -12px;
+  margin-top: -20px;
+}
+.hrlines {
+  display: flex;
+  flex-direction: row;
+}
+.hrlines::before,
+.hrlines::after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid rgba(236, 114, 32, 0.479);
+  margin: auto;
+}
+.hrlines > button {
+  padding-inline: 20px;
+  margin: 0px 20px;
+  outline: 1px solid rgb(236, 114, 32);
+  border-radius: 0px;
+  color: rgb(236, 114, 32);
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .ncimg_style > img {
+    width: 160px;
+    height: 150px;
+  }
+}
+@media (max-width: 767px) {
+}

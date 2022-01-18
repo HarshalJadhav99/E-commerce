@@ -1,0 +1,135 @@
+.home {
+  background: radial-gradient(#202020, #202020);
+  height: 400px;
+  padding: 30px 0;
+}
+.slick-prev {
+  display: none !important;
+  left: -25px;
+}
+.slick-next {
+  display: none !important;
+  right: -25px;
+}
+.slick-dots {
+  position: absolute;
+  bottom: 0px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 0.75;
+  color: #ffcb00;
+  /* border: 1px solid yellow; */
+  /* outline: 1px solid yellow; */
+}
+.hs_text_style {
+  color: white;
+  text-align: initial;
+  margin-top: 100px;
+}
+.hs_text_style > h4 {
+  margin-bottom: 20px;
+  font-size: 39px;
+}
+.hs_btn_style > button {
+  border: 1px solid yellow;
+  color: white;
+  padding-inline: 40px;
+  padding-block: 15px;
+  margin-right: 390px;
+  margin-top: 10px;
+}
+.hs_btn_style > button:hover {
+  border: transparent;
+  color: white;
+  background: linear-gradient(#eff306, #b1b404);
+  padding-inline: 40px;
+  padding-block: 15px;
+  margin-right: 390px;
+  margin-top: 10px;
+}
+/* .slick-initialized .slick-slide {
+  display: inline-flex;
+  max-width: 800px;
+} */
+.hs_img_style > img {
+  width: 350px;
+}
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  .hs_btn_style > button {
+    border: transparent;
+    color: white;
+    background: linear-gradient(#eff306, #b1b404);
+    padding-inline: 40px;
+    padding-block: 15px;
+    margin-right: 183px;
+    margin-top: 10px;
+  }
+  .hs_btn_style > button:hover {
+    border: transparent;
+    color: white;
+    background: linear-gradient(#eff306, #b1b404);
+    padding-inline: 40px;
+    padding-block: 15px;
+    margin-right: 183px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .home {
+    background: radial-gradient(#202020, #202020);
+    height: 250px;
+    padding: 30px 0;
+  }
+  .hs_img_style > img {
+    width: 200px;
+  }
+  .slick-dots {
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .hs_text_style {
+    color: white;
+    text-align: initial;
+    margin-top: 30px;
+  }
+  .hs_text_style > h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  .hs_text_style > p {
+    font-size: 9px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .hs_btn_style > button {
+    border: 1px solid yellow;
+    color: white;
+    padding-inline: 10px;
+    padding-block: 5px;
+    font-size: 12px;
+    margin-right: 80px;
+    margin-top: 0px;
+  }
+  .hs_btn_style > button:hover {
+    border: 1px solid yellow;
+    color: white;
+    padding-inline: 10px;
+    padding-block: 5px;
+    font-size: 12px;
+    margin-right: 80px;
+    margin-top: 0px;
+  }
+}
